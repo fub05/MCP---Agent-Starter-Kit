@@ -39,6 +39,3 @@ class MCPServer:
     # helper local methods
     def list_docs(self):
         return [p.name for p in self.base_docs.glob("**/*") if p.is_file()]
-# helper local methods
-def list_docs(self):
-return [p.name for p in self.base_docs.glob("**/*") if p.is_file()]
